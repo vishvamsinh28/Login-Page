@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css"> 
+    <title>Login form</title>
+</head>
+<body>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div class="container">
+        <div class="left">
+        </div>
+        <div class="right">
+            <form>
+                <h1 id="fh1">Login details</h1>
+                <label for="un">Userame : </label>
+                <input type="text" class="tx" placeholder="Type here ..." minlength="1" maxlength="20" required>
+                <br>
+                <label for="ln">Last Name : </label>
+                <input type="text" class="tx" placeholder="Type here ..." minlength="1" maxlength="20" required>
+                <br>
+                <label for="fn">First Name : </label>
+                <input type="text" class="tx" placeholder="Type here ..." minlength="1" maxlength="20" required>
+                <br>
+                <label for="pass">Password : </label>
+                <input type="password" class="tx" placeholder="Type here ..." minlength="1" maxlength="20" required>
+                <br>
+                <input type="checkbox" id="terms">
+                <label for="terms">I agree to all conditions</label>
+                <br>
+                <button id="login">Log in</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
